@@ -169,7 +169,7 @@ function App() {
               <div className="flex flex-wrap gap-4">
                 <Stat icon={<Coffee />} value="500+" label="Cups of Coffee" />
                 <Stat icon={<Code />} value="4+" label="Projects Completed" />
-                <Stat icon={<Heart />} value="8%" label="Client Satisfaction" />
+                <Stat icon={<Heart />} value="85%" label="Client Satisfaction" />
               </div>
             </div>
             <div className="relative">
