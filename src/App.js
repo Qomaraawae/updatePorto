@@ -150,7 +150,7 @@ function App() {
 
       {/* About Section */}
       <section id="about" className="py-20 px-4">
-        <div className="max-w-6xl mx-auto">
+        <div className="max-w-7xl mx-auto">
           <h2 className="text-3xl md:text-4xl font-bold mb-12 text-center">About Me</h2>
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div className="space-y-6">
@@ -202,7 +202,7 @@ function App() {
       <section id="projects" className="py-20 px-4">
   <div className="max-w-8xl mx-auto">
     <h2 className="text-3xl md:text-4xl font-bold mb-12 text-center">Featured Projects</h2>
-    <div className="grid md:grid-cols-3 gap-8">
+    <div className="grid md:grid-cols-2 gap-8">
       <a href="https://terasomah.netlify.app" target="_blank" rel="noopener noreferrer">
         <ProjectCard
           title="E-Commerce Platform"
@@ -225,6 +225,14 @@ function App() {
           description="Real-time management platform with instant finding the items"
           image="assets/project2.png"
           tags={['React.js', 'Firebase', 'Cloudinary']}
+        />
+      </a>
+      <a href="https://aesphoto.netlify.app" target="_blank" rel="noopener noreferrer">
+        <ProjectCard
+          title="Aesthetic Photobooth"
+          description="a creation from myself to develop an idea, but this website is available desktop only"
+          image="assets/project4.png"
+          tags={['React.js']}
         />
       </a>
     </div>
