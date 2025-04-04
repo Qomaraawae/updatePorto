@@ -288,7 +288,7 @@ function App() {
             <SkillCard
               icon={<Cloud className="w-8 h-8" />}
               title="Cloud Services"
-              skills={["Firebase", "Supabase", "Cloudinary"]}
+              skills={["Firebase", "Supabase", "Cloudinary", "Zustand"]}
             />
           </div>
         </div>
@@ -322,7 +322,7 @@ function App() {
               description="Real-time management platform with instant finding the items"
               image="assets/project2.png"
               link="https://manageadmin.netlify.app"
-              tags={["React.js", "Firebase", "Maps API"]}
+              tags={["React.js", "Firebase"]}
             />
             <ProjectCard
               title="Aesthetic Photobooth"
@@ -330,6 +330,13 @@ function App() {
               image="assets/project4.png"
               link="https://aesphoto.netlify.app"
               tags={["React.js"]}
+            />
+            <ProjectCard
+              title="Billing Warnet"
+              description="The internet cafe billing system uses Zustand state management which is different from my previous project"
+              image="assets/project5.png"
+              link="https://billwarnet.netlify.app"
+              tags={["React.js", "Firebase", "Zustand"]}
             />
           </div>
         </div>
